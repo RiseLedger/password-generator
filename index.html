@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <p>
+        <input id="generated-pass" name="generated-pass" type="text" placeholder="Your Generated Password">
+    </p>
+    <p>
+        <label for="pass-length">Length:</label>
+        <input type="number" name="pass-length" min="3" max="30" value="15" id="pass-length">
+    </p>
+    <p>
+        <label for="pass-char-lower">Lowercase letters</label>
+        <input type="checkbox" value="Char" id="pass-char-lower" checked>
+    </p>
+    <p>
+        <label for="pass-char-upper">Uppercase letters</label>
+        <input type="checkbox" value="CharUpper" id="pass-char-upper">
+    </p>
+    <p>
+        <label for="pass-char-lower">Numbers</label>
+        <input type="checkbox" value="Number" id="pass-char-lower" checked>
+    </p>
+    <p>
+        <label for="pass-char-symbols">Symbols</label>
+        <input type="checkbox" value="Symbol" id="pass-char-symbols">
+    </p>
+
+    <button id="generate">Generate Password</button>
+
+
+<script src="assets/js/init.js"></script>
+</body>
+</html>

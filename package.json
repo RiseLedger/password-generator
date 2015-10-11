@@ -1,0 +1,36 @@
+{
+  "name": "@riseledger/password-generator",
+  "version": "1.0.0",
+  "description": "A simple and quick password generator gui application written in electron",
+  "author": {
+    "name": "Rise Ledger",
+    "email": "riseledger@gmail.com",
+    "url": "riseledger.com"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RiseLedger/password-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/RiseLedger/password-generator/issues"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "test": "./node_modules/.bin/mocha test.js"
+  },
+  "keywords": [
+    "electron",
+    "password",
+    "generator",
+    "gui",
+    "random"
+  ],
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "electron-debug": "^0.2.1",
+    "electron-prebuilt": "^0.33.6",
+    "mocha": "^2.3.3"
+  },
+  "license": "MIT"
+}
