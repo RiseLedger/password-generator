@@ -1,6 +1,10 @@
 # Password Generator
 > A simple and quick password generator gui application written in electron
 
+<p align="center">
+<img src="http://i.imgur.com/LxvgufY.jpg" alt="" />
+</p>
+
 ### Installation
 ##### Download
 ```bash
