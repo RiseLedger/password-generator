@@ -1,3 +1,6 @@
+var Random = require("random-js");
+var random = new Random(Random.engines.browserCrypto);
+
 var PasswordGenerator = function PasswordGenerator(config) {
     this.newPassword = '';
     this.init(config);
@@ -37,7 +40,7 @@ PasswordGenerator.prototype = {
     },
 
     _getRandom: function (min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
+        return random.integer(min, max);
     }
 };
 

@@ -2,7 +2,7 @@ var app = require('app');
 var BrowserWindow = require('browser-window');
 var mainWindow = null;
 
-require('electron-debug')();
+// require('electron-debug')();
 
 app.on('window-all-closed', function() {
   // On OS X it is common for applications and their menu bar

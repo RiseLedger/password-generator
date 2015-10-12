@@ -30,7 +30,8 @@
     "chai": "^3.3.0",
     "electron-debug": "^0.2.1",
     "electron-prebuilt": "^0.33.6",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "random-js": "^1.0.6"
   },
   "license": "MIT"
 }
