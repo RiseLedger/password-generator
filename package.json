@@ -16,8 +16,8 @@
     "url": "https://github.com/RiseLedger/password-generator/issues"
   },
   "scripts": {
-    "start": "./node_modules/.bin/electron .",
-    "test": "./node_modules/.bin/mocha test.js"
+    "start": "electron .",
+    "test": "mocha"
   },
   "keywords": [
     "electron",
