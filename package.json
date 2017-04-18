@@ -28,9 +28,9 @@
   ],
   "devDependencies": {
     "chai": "^3.3.0",
-    "electron-debug": "^0.2.1",
-    "electron-prebuilt": "^0.33.6",
-    "mocha": "^2.3.3",
+    "electron-debug": "^1.1.0",
+    "electron-prebuilt": "^1.4.13",
+    "mocha": "^3.2.0",
     "random-js": "^1.0.6"
   },
   "license": "MIT"
