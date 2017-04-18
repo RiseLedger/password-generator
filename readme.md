@@ -1,4 +1,6 @@
 # Password Generator
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/RiseLedger/password-generator.svg)](https://greenkeeper.io/)
 > A simple and quick password generator gui application written in electron
 
 <p align="center">
